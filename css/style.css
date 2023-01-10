@@ -24,6 +24,13 @@ h2 {
   color: #fff;
 }
 
+._bold {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  color: #444;
+}
+
 section {
   padding: 30px 0;
 }
@@ -565,6 +572,10 @@ section {
 }
 
 @media (max-width: 1200px) {
+  ._bold {
+    font-size: 18px;
+    line-height: 26px;
+  }
   .mainscreen__h1 {
     font-size: 60px;
   }
@@ -673,6 +684,9 @@ section {
 }
 
 @media (max-width: 720px) {
+  ._bold {
+    font-size: 14px;
+  }
   .header__menu {
     display: none;
   }
@@ -803,6 +817,7 @@ section {
 }
 
 @media (max-width: 480px) {
+  
   .mainscreen__h1 {
     font-size: 40px;
   }
@@ -812,6 +827,9 @@ section {
   .invitation__info {
     grid-template-columns: 1fr;
     max-width: 300px;
+  }
+  .invitation__item {
+    grid-column: span 1;
   }
   .dress-code__colors {
     grid-gap: 25px;

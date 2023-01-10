@@ -826,7 +826,6 @@ section {
   }
   .invitation__info {
     grid-template-columns: 1fr;
-    max-width: 300px;
   }
   .invitation__item._col-2 {
     grid-column: span 1;

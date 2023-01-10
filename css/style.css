@@ -327,6 +327,10 @@ section {
   margin-right: 40px;
 }
 
+.invitation__item._col-2 {
+  grid-column: span 2;
+}
+
 .invitation__icon {
   display: block;
   width: 60px;
